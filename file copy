@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <cs50.h>
+
+int main(void)
+{
+    int c;
+    
+    c = getchar();
+    while (c != EOF) {
+        putchar(c);
+        c = getchar();
+    }
+    
+}
+
+//from what I've noticed, this is literally just a program that//
+//copies what ever is put into the terminal//
